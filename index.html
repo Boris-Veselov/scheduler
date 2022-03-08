@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,11 +28,65 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
+
       <!-- Timeblocks go here -->
+      <div class="row" time-block="9">
+        <div class="col-1 hour">9am</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" time-block="10">
+        <div class="col-1 hour">10am</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" hour="11">
+        <div class="col-1 hour">11am</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" hour="12">
+        <div class="col-1 hour">12pm</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" hour="1">
+        <div class="col-1 hour">1pm</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" hour="2">
+        <div class="col-1 hour">2pm</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" hour="3">
+        <div class="col-1 hour">3pm</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" hour="4">
+        <div class="col-1 hour">4pm</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+      <div class="row" hour="5">
+        <div class="col-1 hour">5pm</div>
+        <div class="col-8"><textarea class="textarea"></textarea></div>
+        <div class="col"><button class="saveBtn"></button></div>
+      </div>
+
+
+       
+      
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+
+    <script src="./assets/script.js"></script>
   </body>
 </html>
