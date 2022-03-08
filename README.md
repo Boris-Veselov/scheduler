@@ -4,4 +4,5 @@ Simple calendar application that allows a user to save events for each hour of t
 https://veselavalava.github.io/scheduler/
 
 
+<a href='https://postimg.cc/qhkCTTrW' target='_blank'><img src='https://i.postimg.cc/qhkCTTrW/1.png' border='0' alt='1'/></a>
 
