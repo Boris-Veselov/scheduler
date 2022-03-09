@@ -3,10 +3,10 @@
 # Story:
 Simple calendar application that allows a user to save events for each hour of the day. This app features dynamically updated HTML and CSS powered by jQuery.
 
-# Buid with:
+# Built with:
 HTML, CSS, JavaScript, Bootstrap, JQuery 
 
-# Website
+# Website:
 https://veselavalava.github.io/scheduler/
 
 # Screenshot:
