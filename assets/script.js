@@ -38,7 +38,6 @@ $(document).ready(function(){
             });
     }
     // button for saving task
-    
     textInput()
     colorChange()
     // Save button
